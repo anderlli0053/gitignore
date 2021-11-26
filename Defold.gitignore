@@ -1,0 +1,28 @@
+# Defold game engine gitignore file
+
+# Compiled and commented out by Andrew Poženel AKA .:VoiD:.
+
+
+# This .gitignore file should be placed at the root of your Defold project directory
+
+
+# Ignore the folder that Defold uses as temporary directory in the background
+/.[Ii]nternal
+
+# Ignore the folder containing the finished project builds
+/[Bb]uild
+
+# Ignore other files that OSes use for caching
+
+.externalToolBuilders
+.DS_Store
+Thumbs.db
+.lock-wscript
+
+# Ignore the compiled Python file
+*.pyc
+
+# Ignore the irrelevant project files
+.project
+.cproject
+[Bb]uiltins
